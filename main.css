@@ -1,0 +1,40 @@
+/*Heading back/grey text: #404041
+Pink Title: #ED458B
+Grey Title: #E6E7E8
+Button Reg: #929497
+Button Disabled: #D0D2D3
+Button Hov/Big Num: #EB008B*/
+
+body {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  background-color: #404041;
+  padding: 20px 0;
+}
+
+h1 {
+  color: #ED458B;
+  font-weight: 700;
+  font-size: 2em;
+}
+
+span {
+  color: #E6E7E8;
+  font-weight: 300;
+}
+
+fieldset {
+  margin: 30px auto 0;
+  width: 85%;
+}
+
+#user-input {
+  width: 100%;
+  font-size: 1.3em;
+  font-weight: 300;
+  padding: 5px;
+  border: 1.5px solid #D0D2d3;
+}
