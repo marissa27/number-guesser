@@ -2,6 +2,7 @@ var randomNumber = Math.floor(Math.random() * 100 +1);
 var userInput = document.getElementById('user-input');
 var messageInput = document.getElementById('guess-number');
 var submitBtn = document.getElementById("submit-btn");
+var clearInput = document.querySelector(".clear-btn");
 
 // Sets return message for number guess results
 submitBtn.addEventListener('click', function () {
@@ -19,5 +20,6 @@ submitBtn.addEventListener('click', function () {
   }
 });
 
-// Sets min and max
-// userInput = Math.min(100,Math.max(0,userInput));
+clearInput.addEventListener('click', function () {
+  userInput.value = "";
+})
