@@ -80,6 +80,5 @@ maxInput.addEventListener('keyup', function (){
 })
 
 function changeRange (min, max)  {
-  // console.log(min, max);
  return Math.floor(Math.random() * (max - min)) + min;
 }
