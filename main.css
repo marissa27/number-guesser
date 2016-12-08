@@ -38,3 +38,155 @@ fieldset {
   padding: 5px;
   border: 1.5px solid #D0D2d3;
 }
+
+input, select, textarea {
+    color: #D0D2d3;
+}
+
+textarea:focus, input:focus {
+    color: #000000;
+}
+
+#submit-btn {
+  background-color: #929497;
+  color: white;
+  border-style: none;
+  border-radius: 20px;
+  width: 100%;
+  font-size: 1.1em;
+  font-weight: 300;
+  margin-top: 15px;
+  height: 35px;
+  }
+
+  #submit-btn:hover {
+    background-color: #EB008B;
+  color: white;
+  border-style: none;
+  border-radius: 20px;
+  width: 100%;
+  font-size: 1.1em;
+  font-weight: 300;
+  margin-top: 15px;
+  height: 35px;
+  cursor: pointer;
+  }
+
+  #submit-btn:disabled {
+    background-color: #D0D2d3;
+  color: white;
+  border-style: none;
+  border-radius: 20px;
+  width: 100%;
+  font-size: 1.1em;
+  font-weight: 300;
+  margin-top: 15px;
+  height: 35px;
+  cursor: pointer;
+  }
+
+.clear-btn {
+  background-color: #929497;
+color: white;
+border-style: none;
+border-radius: 20px;
+width: 100%;
+font-size: 1.1em;
+font-weight: 300;
+margin-top: 15px;
+height: 35px;
+}
+
+.clear-btn:hover {
+  background-color: #EB008B;
+color: white;
+border-style: none;
+border-radius: 20px;
+width: 100%;
+font-size: 1.1em;
+font-weight: 300;
+margin-top: 15px;
+height: 35px;
+cursor: pointer;
+}
+
+.clear-btn:disabled {
+  background-color: #D0D2d3;
+color: white;
+border-style: none;
+border-radius: 20px;
+width: 100%;
+font-size: 1.1em;
+font-weight: 300;
+margin-top: 15px;
+height: 35px;
+cursor: pointer;
+}
+
+p {
+  font-size: 1em;
+  margin: 25px 0;
+}
+
+.user-result {
+  font-size: 7em;
+  color: #EB008B;
+}
+
+.ranges {
+border: 1px solid #D0D2d3;
+padding: 10px;
+}
+
+.ranges p {
+  margin: 10px 0 0 0;
+}
+
+
+.min {
+  width: 30%;
+font-size: .9em;
+}
+
+.max {
+  width: 30%;
+font-size: .9em;
+}
+
+.reset-btn {
+  background-color: #929497;
+color: white;
+border-style: none;
+border-radius: 20px;
+width: 100%;
+font-size: 1.1em;
+font-weight: 300;
+margin-top: 15px;
+height: 35px;
+}
+
+.reset-btn:hover {
+  background-color: #EB008B;
+color: white;
+border-style: none;
+border-radius: 20px;
+width: 100%;
+font-size: 1.1em;
+font-weight: 300;
+margin-top: 15px;
+height: 35px;
+cursor: pointer;
+}
+
+.reset-btn:disabled {
+  background-color: #D0D2d3;
+color: white;
+border-style: none;
+border-radius: 20px;
+width: 100%;
+font-size: 1.1em;
+font-weight: 300;
+margin-top: 15px;
+height: 35px;
+cursor: pointer;
+}

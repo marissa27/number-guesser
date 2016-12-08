@@ -11,18 +11,29 @@
     <header>
       <h1>Number <span>Guesser</span></h1>
     </header>
-<fieldset>
-    <input type="text" id="user-input" placeholder="Enter your guess">
+<fieldset class="main">
+    <input type="Number" id="user-input" placeholder="Enter your guess">
     <input type="submit" name="submitbtn" id="submit-btn" value="Guess">
 
-    <input type="button" class="clear-btn" value="Clear">
-
+    <input type="button" class="clear-btn" value="Clear" disabled>
+<div class="reaction">
     <p>Your last guess was</p>
     <p class="user-result"></p>
     <p class="result-text"></p>
+</div>
 
-    <input type="button" class="reset-btn" value="Reset">
 </fieldset>
+
+<fieldset class="ranges">
+<input type="Number" class="min" value="0">
+<input type="Number" class="max" Value="100">
+<p>Live a little, change the number range!</p>
+
+  </fieldset>
+  <fieldset>
+<input type="button" class="reset-btn" Value="Reset" disabled>
+</fieldset>
+
     <script src="index.js" type="text/javascript"></script>
   </body>
 </html>
