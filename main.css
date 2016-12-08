@@ -130,6 +130,7 @@ p {
   border: 1px solid #D0D2d3;
   padding: 10px;
   width: 80%;
+  margin-top: 0px;
 }
 
 .ranges p {
@@ -187,8 +188,8 @@ p {
 /*900 width settings*/
 @media screen and (min-width: 900px) {
     .main {
-        width: 70%;
-        margin: 45px auto;
+      margin: 20px auto 0;
+      width: 85%;
     }
     #user-input {
       width: 89%;
@@ -278,6 +279,7 @@ p {
       border: 1px solid #D0D2d3;
       padding: 10px;
       width: 65%;
+      margin-top: 0;
     }
 
     .reset-btn {
