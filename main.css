@@ -118,11 +118,11 @@ textarea:focus, input:focus {
 
 p {
   font-size: 1em;
-  margin: 25px 0;
+  margin: 20px 0;
 }
 
 .user-result {
-  font-size: 7em;
+  font-size: 11.5em;
   color: #EB008B;
 }
 
